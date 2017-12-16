@@ -9,5 +9,28 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
+    android:background="#26ade0"
     tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make everyday decisions easier!"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ball1"
+        android:id="@+id/image_eightBall"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ask"
+        android:id="@+id/askButton"
+        android:textColor="#3f51b5" />
 </RelativeLayout>
